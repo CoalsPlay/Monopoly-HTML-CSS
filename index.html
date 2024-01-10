@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monopoly HTML y CSS</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/c58c6cbca2.js" crossorigin="anonymous"></script>
+    <script defer src="./js/script.js"></script>
+  </head>
+  <body>
+    
+    <main class="board">
+
+      <!-- Esquina: PARKING GRATUITO -->
+      <div class="CTL">
+        <div class="parking-container">
+          <span>PARKING</span>
+          <img src="./img/cor-3.png" alt="Free Parking">
+          <span>GRATUITO</span>
+        </div>
+      </div>
+      <!-- Fin: PARKING GRATUITO -->
+
+      <div class="T1">
+        <header class="color-header-box-TB red"></header>
+        <div class="info-box-TB">
+          <span class="font-box">JACK &nbsp;12</span>
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            220
+          </span>
+        </div>
+      </div>
+      <div class="T2">
+        <div class="B-luck">
+          <span>SUERTE</span>
+          <img src="./img/chance-blue.png" alt="Lucky">
+        </div>
+      </div>
+      <div class="T3">
+        <header class="color-header-box-TB red"></header>
+        <div class="info-box-TB">
+          <span class="font-box">BUDA &nbsp;13</span>
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            220
+          </span>
+        </div>
+      </div>
+      <div class="T4">
+        <header class="color-header-box-TB red"></header>
+        <div class="info-box-TB">
+          <span class="font-box">KOJIRO 14</span>
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            240
+          </span>
+        </div>
+      </div>
+      <div class="T5">
+        <div class="generic-container">
+          <span>ESTACIÓN DE TREN 3</span>
+          <img src="./img/train.png" alt="Train station">
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            200
+          </span>
+        </div>
+      </div>
+      <div class="T6">
+        <header class="color-header-box-TB yellow"></header>
+        <div class="info-box-TB">
+          <span class="font-box">NARUTO 15</span>
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            260
+          </span>
+        </div>
+      </div>
+      <div class="T7">
+        <header class="color-header-box-TB yellow"></header>
+                  <div class="info-box-TB">
+          <span class="font-box">PAIN &nbsp;&nbsp;16</span>
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            260
+          </span>
+        </div>
+      </div>
+      <div class="T8">
+        <div class="generic-container">
+          <span>COMPAÑÍA DE AGUA</span>
+          <img src="./img/valve.png" alt="Train station">
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            150
+          </span>
+        </div>
+      </div>
+      <div class="T9">
+        <header class="color-header-box-TB yellow"></header>
+        <div class="info-box-TB">
+          <span class="font-box">ITACHI 17</span>
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            280
+          </span>
+        </div>
+      </div>
+
+      <!-- Esquina: VE A LA CARCEL -->
+      <div class="CTR">
+        <div class="go-jail-container">
+          <span>VE A LA</span>
+          <img src="./img/cor-4.png" alt="Free Parking">
+          <span>CÁRCEL</span>
+        </div>
+      </div>
+      <!-- Fin: VE A LA CARCEL -->
+
+      <div class="L1">
+        <header class="color-header-box-LR yellow orange"></header>
+        <div class="info-box-LR">
+          <span class="font-box">KOHAKU &nbsp;&nbsp;&nbsp;11</span>
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            200
+          </span>
+        </div>
+      </div>
+      <div class="L2">
+        <header class="color-header-box-LR yellow orange"></header>
+        <div class="info-box-LR">
+          <span class="font-box">CHROME 10</span>
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            180
+          </span>
+        </div>
+      </div>
+      <div class="L3">
+        <div class="chest-container chest-LR">
+          <span>CAJA DE COMUNIDAD</span>
+          <img src="./img/chest.webp" alt="Chest community">
+        </div>
+      </div>
+      <div class="L4">
+        <header class="color-header-box-LR yellow orange"></header>
+        <div class="info-box-LR">
+          <span class="font-box">SENKU 9</span>
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            180
+          </span>
+        </div>
+      </div>
+      <div class="L5">
+        <div class="generic-container generic-LR">
+          <span>ESTACIÓN DE TREN 2</span>
+          <img src="./img/train.png" alt="Train station">
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            200
+          </span>
+        </div>
+      </div>
+      <div class="L6">
+        <header class="color-header-box-LR yellow pink"></header>
+        <div class="info-box-LR">
+          <span class="font-box">SANJI 8</span>
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            160
+          </span>
+        </div>
+      </div>
+      <div class="L7">
+        <header class="color-header-box-LR yellow pink"></header>
+        <div class="info-box-LR">
+          <span class="font-box">ZORO &nbsp;&nbsp;&nbsp;7</span>
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            140
+          </span>
+        </div>
+      </div>
+      <div class="L8">
+        <div class="generic-container generic-LR">
+          <span>COMPAÑÍA ELÉCTRICA</span>
+          <img src="./img/electric.png" alt="Train station">
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            150
+          </span>
+        </div>
+      </div>
+      <div class="L9">
+        <header class="color-header-box-LR yellow pink"></header>
+        <div class="info-box-LR">
+          <span class="font-box">LUFFY &nbsp;&nbsp;6</span>
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            140
+          </span>
+        </div>
+      </div>
+
+      <div class="R1">
+        <header class="color-header-box-LR yellow green"></header>
+        <div class="info-box-LR">
+          <span class="font-box">JOTARO &nbsp;18</span>
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            300
+          </span>
+        </div>
+      </div>
+      <div class="R2">
+        <header class="color-header-box-LR yellow green"></header>
+        <div class="info-box-LR">
+          <span class="font-box">JOSEPH 19</span>
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            300
+          </span>
+        </div>
+      </div>
+      <div class="R3">
+        <div class="chest-container chest-LR">
+          <span>CAJA DE COMUNIDAD</span>
+          <img src="./img/chest.webp" alt="Chest community">
+        </div>
+      </div>
+      <div class="R4">
+        <header class="color-header-box-LR yellow green"></header>
+        <div class="info-box-LR">
+          <span class="font-box">DIAVOLO 20</span>
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            320
+          </span>
+        </div>
+      </div>
+      <div class="R5">
+        <div class="generic-container generic-LR">
+          <span>ESTACIÓN DE TREN 4</span>
+          <img src="./img/train.png" alt="Train station">
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            200
+          </span>
+        </div>
+      </div>
+      <div class="R6">
+        <div class="B-luck B-luck-R">
+          <span>SUERTE</span>
+          <img src="./img/chance-orange.png" alt="Lucky">
+        </div>
+      </div>
+      <div class="R7">
+        <header class="color-header-box-LR yellow blue"></header>
+        <div class="info-box-LR">
+          <span class="font-box">ASTA &nbsp;&nbsp;&nbsp;21</span>
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            350
+          </span>
+        </div>
+      </div>
+      <div class="R8">
+        <div class="generic-container generic-LR">
+          <span>IMPUESTO DE LUJO</span>
+          <img src="./img/ring.png" alt="Train station">
+          <span class="font-box">
+            PAGA<br>
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            100
+          </span>
+        </div>
+      </div>
+      <div class="R9">
+        <header class="color-header-box-LR yellow blue"></header>
+        <div class="info-box-LR">
+          <span class="font-box">YUNO &nbsp;22</span>
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            400
+          </span>
+        </div>
+      </div>
+
+      <!-- Centro de tablero -->
+      <div class="void">
+        <!-- B -->
+        <button class="board-rotate btn-B">
+          <i class="fa-solid fa-square-caret-down"></i>
+        </button>
+        <!-- T -->
+        <button class="board-rotate btn-T">
+          <i class="fa-solid fa-square-caret-up"></i>
+        </button>
+        <!-- L -->
+        <button class="board-rotate btn-L">
+          <i class="fa-solid fa-square-caret-left"></i>
+        </button>
+        <!-- R -->
+        <button class="board-rotate btn-R">
+          <i class="fa-solid fa-square-caret-right"></i>
+        </button>
+
+        <div class="void-content">
+
+          <div class="card chest">
+            <img src="./img/chest.webp" alt="Chest">
+          </div>
+          <div class="game-name-container">
+            <picture class="icon-name"></picture>
+            <h1 class="game-name">COALSPOLY</h1>
+            <span class="credits-game"><strong>&copy; COALSPOLY</strong> | Desarrollado por <a class="credits-link" href="#">CoalsPlay</a> con <strong>HTML y CSS</strong></span>
+          </div>
+          <div class="card lucky">
+            <img src="./img/chance-white.png" alt="Chance card">
+          </div>
+
+        </div>
+      </div>
+      <!-- Fin de Centro de tablero -->
+
+      <!-- Esquina: SOLO VISITAS -->
+      <div class="CBL">
+        <picture class="jail-box">
+          <img src="./img/cor-2.png" alt="Jail">
+        </picture>
+        <span class="word-1">SOLO</span>
+        <span class="word-2">VISITAS</span>
+      </div>
+      <!-- Fin: SOLO VISITAS -->
+
+      <div class="B1">
+        <header class="color-header-box-TB celeste"></header>
+        <div class="info-box-TB">
+          <span class="font-box">HAKARI 5</span>
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            120
+          </span>
+        </div>
+      </div>
+      <div class="B2">
+        <header class="color-header-box-TB celeste"></header>
+        <div class="info-box-TB">
+          <span class="font-box">TOJI 4</span>
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            100
+          </span>
+        </div>
+      </div>
+      <div class="B3">
+        <div class="B-luck">
+          <span>SUERTE</span>
+          <img src="./img/chance-pink.png" alt="Lucky">
+        </div>
+      </div>
+      <div class="B4">
+        <header class="color-header-box-TB celeste"></header>
+        <div class="info-box-TB">
+          <span class="font-box">GOJO 3</span>
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>100
+          </span>
+        </div>
+      </div>
+      <div class="B5">
+        <div class="generic-container">
+          <span>ESTACIÓN DE TREN 1</span>
+          <img src="./img/train.png" alt="Train station">
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            200
+          </span>
+        </div>
+      </div>
+      <div class="B6">
+        <div class="generic-container gap-container">
+          <span>IMPUESTO SOBRE EL CAPITAL</span>
+          <i class="fa-solid fa-diamond"></i>
+          <span class="font-box">
+            PAGA<br>
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            200
+          </span>
+        </div>
+      </div>
+      <div class="B7">
+        <header class="color-header-box-TB brown"></header>
+        <div class="info-box-TB">
+          <span class="font-box">COALS 2</span>
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            60
+          </span>
+        </div>
+      </div>
+      <div class="B8">
+        <div class="chest-container">
+          <span>CAJA DE COMUNIDAD</span>
+          <img src="./img/chest.webp" alt="Chest community">
+        </div>
+      </div>
+      <div class="B9">
+        <header class="color-header-box-TB brown"></header>
+        <div class="info-box-TB">
+          <span class="font-box">SHANE 1</span>
+          <span class="font-box">
+            <i class="fa-solid fa-won-sign icon-M"></i>
+            60
+          </span>
+        </div>
+      </div>
+
+      <div class="CBR">
+        <div class="start-container">
+          <span>SALIDA</span>
+          <p>Cobra <i class="fa-solid fa-won-sign icon-M"></i>200 cada vez que pases por aquí</p>
+        </div>
+        <img src="./img/cor-1.webp" alt="Salida">
+      </div>
+
+    </main>
+
+  </body>
+</html>
